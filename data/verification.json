@@ -1,0 +1,926 @@
+{
+ "passed": true,
+ "count": 184,
+ "results": [
+  {
+   "check": "all analysis checks passed (figures.json)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "Team (Locked) RBNT at start matches the node",
+   "passed": true,
+   "detail": "333909314.0 vs 333909314"
+  },
+  {
+   "check": "Team (Locked) RBNT at end matches the node",
+   "passed": true,
+   "detail": "333909314.0 vs 333909314"
+  },
+  {
+   "check": "Governance (Locked) RBNT at start matches the node",
+   "passed": true,
+   "detail": "133333334.0 vs 133333334"
+  },
+  {
+   "check": "Governance (Locked) RBNT at end matches the node",
+   "passed": true,
+   "detail": "100000001.0 vs 100000001"
+  },
+  {
+   "check": "Governance (Unlocked) RBNT at start matches the node",
+   "passed": true,
+   "detail": "66666756.0 vs 66666756"
+  },
+  {
+   "check": "Governance (Unlocked) RBNT at end matches the node",
+   "passed": true,
+   "detail": "100000089.0 vs 100000089"
+  },
+  {
+   "check": "USYD/CSIRO (Locked) RBNT at start matches the node",
+   "passed": true,
+   "detail": "200000000.0 vs 200000000"
+  },
+  {
+   "check": "USYD/CSIRO (Locked) RBNT at end matches the node",
+   "passed": true,
+   "detail": "200000000.0 vs 200000000"
+  },
+  {
+   "check": "Investors RBNT at start matches the node",
+   "passed": true,
+   "detail": "0.0 vs 0"
+  },
+  {
+   "check": "Investors RBNT at end matches the node",
+   "passed": true,
+   "detail": "253115670.0 vs 253115670"
+  },
+  {
+   "check": "Reserve RBNT at start matches the node",
+   "passed": true,
+   "detail": "2000000000.0 vs 2000000000"
+  },
+  {
+   "check": "Reserve RBNT at end matches the node",
+   "passed": true,
+   "detail": "2000000000.0 vs 2000000000"
+  },
+  {
+   "check": "Ecosystem (Locked) RBNT at start matches the node",
+   "passed": true,
+   "detail": "2794132788.0 vs 2794132788"
+  },
+  {
+   "check": "Ecosystem (Locked) RBNT at end matches the node",
+   "passed": true,
+   "detail": "2294132788.0 vs 2294132788"
+  },
+  {
+   "check": "Ecosystem 2 (Unlocked) RBNT at start matches the node",
+   "passed": true,
+   "detail": "377838567.0 vs 377838567"
+  },
+  {
+   "check": "Ecosystem 2 (Unlocked) RBNT at end matches the node",
+   "passed": true,
+   "detail": "624722897.0 vs 624722897"
+  },
+  {
+   "check": "Ecosystem (Unlocked) RBNT at start matches the node",
+   "passed": true,
+   "detail": "68892664.47440696 vs 68892664"
+  },
+  {
+   "check": "Ecosystem (Unlocked) RBNT at end matches the node",
+   "passed": true,
+   "detail": "25080271.244353283 vs 25080271"
+  },
+  {
+   "check": "Reddex RBNT pool, no lock RBNT at start matches the node",
+   "passed": true,
+   "detail": "360594599.05372727 vs 360594599"
+  },
+  {
+   "check": "Reddex RBNT pool, no lock RBNT at end matches the node",
+   "passed": true,
+   "detail": "443228206.0028954 vs 443228206"
+  },
+  {
+   "check": "Reddex RBNT pool, 365 day lock RBNT at start matches the node",
+   "passed": true,
+   "detail": "278467723.84535205 vs 278467724"
+  },
+  {
+   "check": "Reddex RBNT pool, 365 day lock RBNT at end matches the node",
+   "passed": true,
+   "detail": "311548346.16136914 vs 311548346"
+  },
+  {
+   "check": "Wrapped RBNT (WRBNT) contract RBNT at start matches the node",
+   "passed": true,
+   "detail": "1819066450.6643624 vs 1819066451"
+  },
+  {
+   "check": "Wrapped RBNT (WRBNT) contract RBNT at end matches the node",
+   "passed": true,
+   "detail": "1736902022.3492532 vs 1736902022"
+  },
+  {
+   "check": "Reddex RBNT pool, no lock staked (totalStake) at start matches the node",
+   "passed": true,
+   "detail": "358606856.2784972 vs 358606856"
+  },
+  {
+   "check": "Reddex RBNT pool, no lock staked at end matches the node",
+   "passed": true,
+   "detail": "440677249.9092804 vs 440677250"
+  },
+  {
+   "check": "Reddex RBNT pool, 365 day lock staked (totalStake) at start matches the node",
+   "passed": true,
+   "detail": "277156292.00327575 vs 277156292"
+  },
+  {
+   "check": "Reddex RBNT pool, 365 day lock staked at end matches the node",
+   "passed": true,
+   "detail": "310573757.56034917 vs 310573758"
+  },
+  {
+   "check": "WRBNT supply_start matches the node",
+   "passed": true,
+   "detail": "1819066450.6643624 vs 1819066451"
+  },
+  {
+   "check": "WRBNT supply_end matches the node",
+   "passed": true,
+   "detail": "1736902022.3492532 vs 1736902022"
+  },
+  {
+   "check": "300 random cached balances at block 3,025,809 match the node",
+   "passed": true,
+   "detail": "0 differ"
+  },
+  {
+   "check": "300 random cached balances at block 3,209,414 match the node",
+   "passed": true,
+   "detail": "0 differ"
+  },
+  {
+   "check": "block 3,025,809 is the last block before 1782864000",
+   "passed": true,
+   "detail": "1782863839 1782864138"
+  },
+  {
+   "check": "block 3,044,720 is the last block before 1783468800",
+   "passed": true,
+   "detail": "1783468763 1783468838"
+  },
+  {
+   "check": "block 3,063,059 is the last block before 1784073600",
+   "passed": true,
+   "detail": "1784073473 1784073651"
+  },
+  {
+   "check": "block 3,080,951 is the last block before 1784678400",
+   "passed": true,
+   "detail": "1784678243 1784678439"
+  },
+  {
+   "check": "block 3,097,388 is the last block before 1785283200",
+   "passed": true,
+   "detail": "1785283156 1785283235"
+  },
+  {
+   "check": "block 3,104,242 is the last block before 1785542400",
+   "passed": true,
+   "detail": "1785542325 1785542427"
+  },
+  {
+   "check": "block 3,112,553 is the last block before 1785888000",
+   "passed": true,
+   "detail": "1785887869 1785888131"
+  },
+  {
+   "check": "block 3,126,032 is the last block before 1786492800",
+   "passed": true,
+   "detail": "1786492775 1786492837"
+  },
+  {
+   "check": "block 3,136,420 is the last block before 1787097600",
+   "passed": true,
+   "detail": "1787097568 1787097669"
+  },
+  {
+   "check": "block 3,151,173 is the last block before 1787702400",
+   "passed": true,
+   "detail": "1787702380 1787702431"
+  },
+  {
+   "check": "block 3,161,410 is the last block before 1788220800",
+   "passed": true,
+   "detail": "1788220669 1788220948"
+  },
+  {
+   "check": "block 3,163,201 is the last block before 1788307200",
+   "passed": true,
+   "detail": "1788307042 1788307231"
+  },
+  {
+   "check": "block 3,174,097 is the last block before 1788912000",
+   "passed": true,
+   "detail": "1788911853 1788912030"
+  },
+  {
+   "check": "block 3,184,990 is the last block before 1789516800",
+   "passed": true,
+   "detail": "1789516774 1789516832"
+  },
+  {
+   "check": "block 3,195,742 is the last block before 1790121600",
+   "passed": true,
+   "detail": "1790121456 1790121728"
+  },
+  {
+   "check": "block 3,209,414 is the last block before 1790812800",
+   "passed": true,
+   "detail": "1790812655 1790812824"
+  },
+  {
+   "check": "report/RBNT_Holder_Report_Q3_2026.html: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/RBNT_Holder_Report_Q3_2026.html: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "report/RBNT_Holder_Report_Q3_2026.html: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/RBNT_Holder_Report_Q3_2026.html: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig3_holder_count.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig3_holder_count.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "report/charts/fig3_holder_count.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig3_holder_count.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig8_pool_activity.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig8_pool_activity.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "report/charts/fig8_pool_activity.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig8_pool_activity.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig5_cohorts.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig5_cohorts.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "report/charts/fig5_cohorts.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig5_cohorts.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig10_reserved_wallets.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig10_reserved_wallets.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "report/charts/fig10_reserved_wallets.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig10_reserved_wallets.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig4_concentration.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig4_concentration.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "report/charts/fig4_concentration.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig4_concentration.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig2_holders_by_size.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig2_holders_by_size.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "report/charts/fig2_holders_by_size.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig2_holders_by_size.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig1_who_holds.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig1_who_holds.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "report/charts/fig1_who_holds.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig1_who_holds.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig7_pools_weekly.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig7_pools_weekly.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "report/charts/fig7_pools_weekly.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig7_pools_weekly.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig6_net_change.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig6_net_change.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "report/charts/fig6_net_change.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig6_net_change.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig9_lock_calendar.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig9_lock_calendar.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "report/charts/fig9_lock_calendar.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report/charts/fig9_lock_calendar.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "community/x_card_1600x900.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "community/x_card_1600x900.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "community/x_card_1600x900.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "community/x_card_1600x900.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "community/x_thread.txt: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "community/x_thread.txt: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "community/x_thread.txt: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "community/x_thread.txt: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "community/community_summary.md: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "community/community_summary.md: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "community/community_summary.md: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "community/community_summary.md: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/01_supply_check.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/01_supply_check.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/01_supply_check.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/01_supply_check.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/11_lock_calendar.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/11_lock_calendar.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/11_lock_calendar.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/11_lock_calendar.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/05_concentration.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/05_concentration.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/05_concentration.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/05_concentration.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/02_where_the_rbnt_is.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/02_where_the_rbnt_is.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/02_where_the_rbnt_is.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/02_where_the_rbnt_is.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06d_net_change_by_group.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06d_net_change_by_group.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/06d_net_change_by_group.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06d_net_change_by_group.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/03_who_holds_the_rbnt.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/03_who_holds_the_rbnt.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/03_who_holds_the_rbnt.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/03_who_holds_the_rbnt.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06c_contracts_by_kind.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06c_contracts_by_kind.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/06c_contracts_by_kind.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06c_contracts_by_kind.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/figures.json: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/figures.json: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/figures.json: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06b_band_moves.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06b_band_moves.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/06b_band_moves.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06b_band_moves.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06_cohorts.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06_cohorts.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/06_cohorts.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/06_cohorts.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/08_named_addresses.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/08_named_addresses.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/08_named_addresses.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/08_named_addresses.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/10_staking_pools.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/10_staking_pools.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/10_staking_pools.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/10_staking_pools.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/07_weekly_named_addresses.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/07_weekly_named_addresses.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/07_weekly_named_addresses.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/07_weekly_named_addresses.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/12_group_flows.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/12_group_flows.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/12_group_flows.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/12_group_flows.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/09_reserved_wallet_flows.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/09_reserved_wallet_flows.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/09_reserved_wallet_flows.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/09_reserved_wallet_flows.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/04_holders_by_size.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/04_holders_by_size.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "data/04_holders_by_size.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "data/04_holders_by_size.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "README.md: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "README.md: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "README.md: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "README.md: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "METHOD.md: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "METHOD.md: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "METHOD.md: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "METHOD.md: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "X post 1 is 280 characters or fewer",
+   "passed": true,
+   "detail": "217 characters"
+  },
+  {
+   "check": "X post 2 is 280 characters or fewer",
+   "passed": true,
+   "detail": "227 characters"
+  },
+  {
+   "check": "X post 3 is 280 characters or fewer",
+   "passed": true,
+   "detail": "180 characters"
+  },
+  {
+   "check": "X post 4 is 280 characters or fewer",
+   "passed": true,
+   "detail": "162 characters"
+  },
+  {
+   "check": "X post 5 is 280 characters or fewer",
+   "passed": true,
+   "detail": "161 characters"
+  },
+  {
+   "check": "X post 6 is 280 characters or fewer",
+   "passed": true,
+   "detail": "186 characters"
+  },
+  {
+   "check": "X post 7 is 280 characters or fewer",
+   "passed": true,
+   "detail": "192 characters"
+  },
+  {
+   "check": "X post 8 is 280 characters or fewer",
+   "passed": true,
+   "detail": "96 characters"
+  }
+ ]
+}

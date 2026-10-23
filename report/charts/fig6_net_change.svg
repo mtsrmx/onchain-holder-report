@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="403.2pt" viewBox="0 0 720 403.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-23T15:52:50.184939</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 403.2 
+L 720 403.2 
+L 720 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 259.2 342.72 
+L 669.6 342.72 
+L 669.6 80.64 
+L 259.2 80.64 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 321.731783 342.72 
+L 321.731783 80.64 
+" clip-path="url(#p38977e2833)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="321.731783" y="355.72" transform="rotate(-0 321.731783 355.72)">-100.0M</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 393.065891 342.72 
+L 393.065891 80.64 
+" clip-path="url(#p38977e2833)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="393.065891" y="355.72" transform="rotate(-0 393.065891 355.72)">-50.0M</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 464.4 342.72 
+L 464.4 80.64 
+" clip-path="url(#p38977e2833)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="464.4" y="355.72" transform="rotate(-0 464.4 355.72)">0</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 535.734109 342.72 
+L 535.734109 80.64 
+" clip-path="url(#p38977e2833)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="535.734109" y="355.72" transform="rotate(-0 535.734109 355.72)">50.0M</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 607.068217 342.72 
+L 607.068217 80.64 
+" clip-path="url(#p38977e2833)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="607.068217" y="355.72" transform="rotate(-0 607.068217 355.72)">100.0M</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11"/>
+     <g id="text_6">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="255.7" y="328.602573" transform="rotate(-0 255.7 328.602573)">Redbelly reserved wallets</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12"/>
+     <g id="text_7">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="255.7" y="306.168059" transform="rotate(-0 255.7 306.168059)">Trading pools on decentralised exchanges</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="255.7" y="283.733544" transform="rotate(-0 255.7 283.733544)">Bridge contracts</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="255.7" y="261.299029" transform="rotate(-0 255.7 261.299029)">Multi-signature wallets (Safe)</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="255.7" y="238.864515" transform="rotate(-0 255.7 238.864515)">Vesting contracts</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_16"/>
+     <g id="text_11">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="255.7" y="216.43" transform="rotate(-0 255.7 216.43)">Wallets under 1 RBNT at the start</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_17"/>
+     <g id="text_12">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="255.7" y="193.995485" transform="rotate(-0 255.7 193.995485)">Small wallets (1 to 1,000)</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_18"/>
+     <g id="text_13">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="255.7" y="171.560971" transform="rotate(-0 255.7 171.560971)">Smaller wallets (1,000 to 100,000)</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_19"/>
+     <g id="text_14">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="255.7" y="149.126456" transform="rotate(-0 255.7 149.126456)">Mid-size wallets (100,000 to 1 million)</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_20"/>
+     <g id="text_15">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="255.7" y="126.691941" transform="rotate(-0 255.7 126.691941)">Large wallets (1 million to 10 million)</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_21"/>
+     <g id="text_16">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="255.7" y="104.257427" transform="rotate(-0 255.7 104.257427)">Largest wallets (10 million or more)</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 464.4 330.807273 
+L 401.882682 330.807273 
+L 401.882682 316.897874 
+L 464.4 316.897874 
+z
+" clip-path="url(#p38977e2833)" style="fill: #34444f"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 464.4 308.372758 
+L 466.536106 308.372758 
+L 466.536106 294.463359 
+L 464.4 294.463359 
+z
+" clip-path="url(#p38977e2833)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 464.4 285.938243 
+L 470.44345 285.938243 
+L 470.44345 272.028844 
+L 464.4 272.028844 
+z
+" clip-path="url(#p38977e2833)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 464.4 263.503729 
+L 466.442569 263.503729 
+L 466.442569 249.59433 
+L 464.4 249.59433 
+z
+" clip-path="url(#p38977e2833)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 464.4 241.069214 
+L 317.828571 241.069214 
+L 317.828571 227.159815 
+L 464.4 227.159815 
+z
+" clip-path="url(#p38977e2833)" style="fill: #34444f"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 464.4 218.6347 
+L 482.676976 218.6347 
+L 482.676976 204.7253 
+L 464.4 204.7253 
+z
+" clip-path="url(#p38977e2833)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 464.4 196.200185 
+L 490.634059 196.200185 
+L 490.634059 182.290786 
+L 464.4 182.290786 
+z
+" clip-path="url(#p38977e2833)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 464.4 173.76567 
+L 552.938516 173.76567 
+L 552.938516 159.856271 
+L 464.4 159.856271 
+z
+" clip-path="url(#p38977e2833)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 464.4 151.331156 
+L 471.432309 151.331156 
+L 471.432309 137.421757 
+L 464.4 137.421757 
+z
+" clip-path="url(#p38977e2833)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 464.4 128.896641 
+L 479.087061 128.896641 
+L 479.087061 114.987242 
+L 464.4 114.987242 
+z
+" clip-path="url(#p38977e2833)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 464.4 106.462126 
+L 508.044816 106.462126 
+L 508.044816 92.552727 
+L 464.4 92.552727 
+z
+" clip-path="url(#p38977e2833)" style="fill: #ef5350"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 464.4 342.72 
+L 464.4 80.64 
+" clip-path="url(#p38977e2833)" style="fill: none; stroke: #8fa1ad; stroke-linecap: square"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 259.2 342.72 
+L 669.6 342.72 
+" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'JetBrains Mono'; text-anchor: end; fill: #0f1a22" x="401.882682" y="327.092573" transform="rotate(-0 401.882682 327.092573)">-43.8M  </text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="466.536106" y="304.658059" transform="rotate(-0 466.536106 304.658059)">  +1.5M</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="470.44345" y="282.223544" transform="rotate(-0 470.44345 282.223544)">  +4.2M</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="466.442569" y="259.789029" transform="rotate(-0 466.442569 259.789029)">  +1.4M</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'JetBrains Mono'; text-anchor: end; fill: #0f1a22" x="317.828571" y="237.354515" transform="rotate(-0 317.828571 237.354515)">-102.7M  </text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="482.676976" y="214.92" transform="rotate(-0 482.676976 214.92)">  +12.8M</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="490.634059" y="192.485485" transform="rotate(-0 490.634059 192.485485)">  +18.4M</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="552.938516" y="170.050971" transform="rotate(-0 552.938516 170.050971)">  +62.1M</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="471.432309" y="147.616456" transform="rotate(-0 471.432309 147.616456)">  +4.9M</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="479.087061" y="125.181941" transform="rotate(-0 479.087061 125.181941)">  +10.3M</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="508.044816" y="102.747427" transform="rotate(-0 508.044816 102.747427)">  +30.6M</text>
+   </g>
+  </g>
+  <g id="text_28">
+   <text style="font-weight: 700; font-size: 14.5px; font-family: 'Be Vietnam Pro'; text-anchor: start; fill: #0f1a22" x="14.4" y="24.58" transform="rotate(-0 14.4 24.58)">Which groups gained and which gave up RBNT</text>
+  </g>
+  <g id="text_29">
+   <text style="font-size: 10.5px; font-family: 'Be Vietnam Pro'; text-anchor: start; fill: #394853" x="14.4" y="44.772" transform="rotate(-0 14.4 44.772)">Change in holdings between 30 June and 30 September. Wallet groups are fixed by size at the start</text>
+  </g>
+  <g id="text_30">
+   <text style="font-size: 8px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(14.4 376.42775)">Source: Redbelly mainnet (chain ID 151), blocks 3,025,809 (30 June 2026, 23:57:19 UTC) and 3,209,414 (30 September 2026, 23:57:35 UTC). Last verified</text>
+   <text style="font-size: 8px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(14.4 391.052)">23 October 2026.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p38977e2833">
+   <rect x="259.2" y="80.64" width="410.4" height="262.08"/>
+  </clipPath>
+ </defs>
+</svg>

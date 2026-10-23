@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="403.2pt" viewBox="0 0 720 403.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-23T15:52:51.761006</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 403.2 
+L 720 403.2 
+L 720 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 172.8 338.688 
+L 684 338.688 
+L 684 88.704 
+L 172.8 88.704 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 172.8 338.688 
+L 172.8 88.704 
+" clip-path="url(#paca12668ef)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="172.8" y="351.688" transform="rotate(-0 172.8 351.688)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 240.561036 338.688 
+L 240.561036 88.704 
+" clip-path="url(#paca12668ef)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="240.561036" y="351.688" transform="rotate(-0 240.561036 351.688)">500.0M</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 308.322073 338.688 
+L 308.322073 88.704 
+" clip-path="url(#paca12668ef)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="308.322073" y="351.688" transform="rotate(-0 308.322073 351.688)">1.00B</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 376.083109 338.688 
+L 376.083109 88.704 
+" clip-path="url(#paca12668ef)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="376.083109" y="351.688" transform="rotate(-0 376.083109 351.688)">1.50B</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 443.844145 338.688 
+L 443.844145 88.704 
+" clip-path="url(#paca12668ef)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="443.844145" y="351.688" transform="rotate(-0 443.844145 351.688)">2.00B</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 511.605182 338.688 
+L 511.605182 88.704 
+" clip-path="url(#paca12668ef)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="511.605182" y="351.688" transform="rotate(-0 511.605182 351.688)">2.50B</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 579.366218 338.688 
+L 579.366218 88.704 
+" clip-path="url(#paca12668ef)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_7">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="579.366218" y="351.688" transform="rotate(-0 579.366218 351.688)">3.00B</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 647.127254 338.688 
+L 647.127254 88.704 
+" clip-path="url(#paca12668ef)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_8">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="647.127254" y="351.688" transform="rotate(-0 647.127254 351.688)">3.50B</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_17"/>
+     <g id="text_9">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="169.3" y="322.216859" transform="rotate(-0 169.3 322.216859)">Ecosystem (Unlocked)</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_18"/>
+     <g id="text_10">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="169.3" y="296.274144" transform="rotate(-0 169.3 296.274144)">Governance (Locked)</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_19"/>
+     <g id="text_11">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="169.3" y="270.33143" transform="rotate(-0 169.3 270.33143)">Governance (Unlocked)</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_20"/>
+     <g id="text_12">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="169.3" y="244.388715" transform="rotate(-0 169.3 244.388715)">USYD/CSIRO (Locked)</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_21"/>
+     <g id="text_13">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="169.3" y="218.446" transform="rotate(-0 169.3 218.446)">Investors</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_22"/>
+     <g id="text_14">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="169.3" y="192.503285" transform="rotate(-0 169.3 192.503285)">Team (Locked)</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_23"/>
+     <g id="text_15">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="169.3" y="166.56057" transform="rotate(-0 169.3 166.56057)">Ecosystem 2 (Unlocked)</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_24"/>
+     <g id="text_16">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="169.3" y="140.617856" transform="rotate(-0 169.3 140.617856)">Reserve</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_25"/>
+     <g id="text_17">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: end; fill: #394853" x="169.3" y="114.675141" transform="rotate(-0 169.3 114.675141)">Ecosystem (Locked)</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 172.8 317.466859 
+L 182.136477 317.466859 
+L 182.136477 307.608628 
+L 172.8 307.608628 
+z
+" clip-path="url(#paca12668ef)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 172.8 291.524144 
+L 190.86961 291.524144 
+L 190.86961 281.665913 
+L 172.8 281.665913 
+z
+" clip-path="url(#paca12668ef)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 172.8 265.58143 
+L 181.834817 265.58143 
+L 181.834817 255.723198 
+L 172.8 255.723198 
+z
+" clip-path="url(#paca12668ef)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 172.8 239.638715 
+L 199.904415 239.638715 
+L 199.904415 229.780483 
+L 172.8 229.780483 
+z
+" clip-path="url(#paca12668ef)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 172.8 213.696 
+L 172.8 213.696 
+L 172.8 203.837768 
+L 172.8 203.837768 
+z
+" clip-path="url(#paca12668ef)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 172.8 187.753285 
+L 218.052082 187.753285 
+L 218.052082 177.895054 
+L 172.8 177.895054 
+z
+" clip-path="url(#paca12668ef)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 172.8 161.81057 
+L 224.005466 161.81057 
+L 224.005466 151.952339 
+L 172.8 151.952339 
+z
+" clip-path="url(#paca12668ef)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 172.8 135.867856 
+L 443.844145 135.867856 
+L 443.844145 126.009624 
+L 172.8 126.009624 
+z
+" clip-path="url(#paca12668ef)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 172.8 109.925141 
+L 551.466667 109.925141 
+L 551.466667 100.066909 
+L 172.8 100.066909 
+z
+" clip-path="url(#paca12668ef)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 172.8 327.325091 
+L 176.19893 327.325091 
+L 176.19893 317.466859 
+L 172.8 317.466859 
+z
+" clip-path="url(#paca12668ef)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 172.8 301.382376 
+L 186.352207 301.382376 
+L 186.352207 291.524144 
+L 172.8 291.524144 
+z
+" clip-path="url(#paca12668ef)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 172.8 275.439661 
+L 186.352219 275.439661 
+L 186.352219 265.58143 
+L 172.8 265.58143 
+z
+" clip-path="url(#paca12668ef)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 172.8 249.496946 
+L 199.904415 249.496946 
+L 199.904415 239.638715 
+L 172.8 239.638715 
+z
+" clip-path="url(#paca12668ef)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 172.8 223.554232 
+L 207.10276 223.554232 
+L 207.10276 213.696 
+L 172.8 213.696 
+z
+" clip-path="url(#paca12668ef)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 172.8 197.611517 
+L 218.052082 197.611517 
+L 218.052082 187.753285 
+L 172.8 187.753285 
+z
+" clip-path="url(#paca12668ef)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 172.8 171.668802 
+L 257.463742 171.668802 
+L 257.463742 161.81057 
+L 172.8 161.81057 
+z
+" clip-path="url(#paca12668ef)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 172.8 145.726087 
+L 443.844145 145.726087 
+L 443.844145 135.867856 
+L 172.8 135.867856 
+z
+" clip-path="url(#paca12668ef)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 172.8 119.783372 
+L 483.70563 119.783372 
+L 483.70563 109.925141 
+L 172.8 109.925141 
+z
+" clip-path="url(#paca12668ef)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 172.8 338.688 
+L 684 338.688 
+" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="182.136477" y="320.526859" transform="rotate(-0 182.136477 320.526859)">  25.1M  (-43.8M)</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="190.86961" y="294.584144" transform="rotate(-0 190.86961 294.584144)">  100.0M  (-33.3M)</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="186.352219" y="268.64143" transform="rotate(-0 186.352219 268.64143)">  100.0M  (+33.3M)</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="199.904415" y="242.698715" transform="rotate(-0 199.904415 242.698715)">  200.0M  (no change)</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="207.10276" y="216.756" transform="rotate(-0 207.10276 216.756)">  253.1M  (+253.1M)</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="218.052082" y="190.813285" transform="rotate(-0 218.052082 190.813285)">  333.9M  (no change)</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="257.463742" y="164.87057" transform="rotate(-0 257.463742 164.87057)">  624.7M  (+246.9M)</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="443.844145" y="138.927856" transform="rotate(-0 443.844145 138.927856)">  2.00B  (no change)</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: start; fill: #0f1a22" x="551.466667" y="112.985141" transform="rotate(-0 551.466667 112.985141)">  2.29B  (-500.0M)</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_22">
+     <path d="M 468.305469 81.484 
+L 477.805469 81.484 
+L 477.805469 72.9815 
+L 468.305469 72.9815 
+z
+" style="fill: #c3cdd4"/>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: start" x="485.405469" y="80.4865" transform="rotate(-0 485.405469 80.4865)">30 June 2026</text>
+    </g>
+    <g id="patch_23">
+     <path d="M 567.549297 81.484 
+L 577.049297 81.484 
+L 577.049297 72.9815 
+L 567.549297 72.9815 
+z
+" style="fill: #ef5350"/>
+    </g>
+    <g id="text_28">
+     <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: start" x="584.649297" y="80.4865" transform="rotate(-0 584.649297 80.4865)">30 September 2026</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_29">
+   <text style="font-weight: 700; font-size: 14.5px; font-family: 'Be Vietnam Pro'; text-anchor: start; fill: #0f1a22" x="14.4" y="24.58" transform="rotate(-0 14.4 24.58)">RBNT in Redbelly's nine reserved wallets</text>
+  </g>
+  <g id="text_30">
+   <text style="font-size: 10.5px; font-family: 'Be Vietnam Pro'; text-anchor: start; fill: #394853" x="14.4" y="44.772" transform="rotate(-0 14.4 44.772)">Native RBNT balance of each wallet listed on the DAO treasury page, start and end of the quarter</text>
+  </g>
+  <g id="text_31">
+   <text style="font-size: 8px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(14.4 376.42775)">Source: Redbelly mainnet (chain ID 151), blocks 3,025,809 (30 June 2026, 23:57:19 UTC) and 3,209,414 (30 September 2026, 23:57:35 UTC). Last verified</text>
+   <text style="font-size: 8px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(14.4 391.052)">23 October 2026.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="paca12668ef">
+   <rect x="172.8" y="88.704" width="511.2" height="249.984"/>
+  </clipPath>
+ </defs>
+</svg>

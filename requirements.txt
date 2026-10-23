@@ -1,0 +1,6 @@
+requests>=2.31
+pycryptodome>=3.20
+matplotlib>=3.8
+openpyxl>=3.1
+playwright>=1.45
+pytest>=8.0

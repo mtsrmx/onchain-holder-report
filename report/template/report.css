@@ -1,0 +1,115 @@
+/* RBNT Holder Report. Values from the Redbelly DAO Task Board brand kit
+   (light theme for the page, dark steel for hero and summary bands). */
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 400; src: url("../../assets/fonts/BeVietnamPro-Regular.ttf"); }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 400; font-style: italic; src: url("../../assets/fonts/BeVietnamPro-Italic.ttf"); }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 500; src: url("../../assets/fonts/BeVietnamPro-Medium.ttf"); }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 600; src: url("../../assets/fonts/BeVietnamPro-SemiBold.ttf"); }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 700; src: url("../../assets/fonts/BeVietnamPro-Bold.ttf"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 400; src: url("../../assets/fonts/JetBrainsMono-Regular.ttf"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 500; src: url("../../assets/fonts/JetBrainsMono-Medium.ttf"); }
+
+:root {
+  --brand: #EF5350;
+  --primary: #B3272A;
+  --surface: #EDF1F4;
+  --card: #FFFFFF;
+  --steel-light: #DDE6ED;
+  --panel-edge: #D3DBE1;
+  --on-surface: #0F1A22;
+  --on-surface-variant: #394853;
+  --outline: #596975;
+  --outline-variant: #C3CDD4;
+  --dark-surface: #0c1317;
+  --dark-steel: #1d3140;
+  --dark-slate: #141f26;
+  --dark-edge: #263641;
+  --dark-text: #f1f5f8;
+  --dark-text-2: #c2ced6;
+  --dark-muted: #8fa1ad;
+  --dark-accent: #ffb3ae;
+  --sans: "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@page {
+  size: A4; margin: 16mm 16mm 20mm 16mm;
+  @bottom-left { content: "RBNT Holder Report, Q3 2026. Not financial advice."; font-family: "Be Vietnam Pro", sans-serif; font-size: 7pt; color: #596975; }
+  @bottom-right { content: counter(page) " / " counter(pages); font-family: "JetBrains Mono", monospace; font-size: 7pt; color: #596975; }
+}
+@page :first { margin: 0; @bottom-left { content: none; } @bottom-right { content: none; } }
+
+* { box-sizing: border-box; }
+html { background: #FFFFFF; }
+body {
+  margin: 0; font-family: var(--sans); font-size: 10.5pt; line-height: 1.5; color: var(--on-surface);
+  background: #FFFFFF; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+.mono, code, .addr { font-family: var(--mono); font-size: 0.9em; letter-spacing: 0.02em; }
+.addr { word-break: break-all; }
+.addr-small { font-family: var(--mono); font-size: 6.8pt; color: var(--on-surface-variant); white-space: nowrap; }
+table.first-wide td:first-child, table.first-wide th:first-child { white-space: nowrap; }
+.checks { columns: 2; column-gap: 6mm; padding-left: 0; list-style: none; }
+p { margin: 0 0 8pt; max-width: 170mm; }
+a { color: var(--primary); text-decoration: none; }
+h1, h2, h3 { margin: 0; letter-spacing: -0.01em; }
+h2 { font-size: 18pt; font-weight: 600; margin: 0 0 6pt; }
+h3 { font-size: 12pt; font-weight: 600; margin: 12pt 0 4pt; }
+.label { font-size: 8pt; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--outline); }
+
+/* Cover: dark steel band */
+.cover {
+  height: 297mm; width: 210mm; background: var(--dark-surface); color: var(--dark-text);
+  padding: 22mm 18mm 16mm; display: flex; flex-direction: column; page-break-after: always;
+}
+.cover .logo { height: 22mm; width: auto; align-self: flex-start; }
+.cover .label { color: var(--dark-muted); }
+.cover h1 { font-size: 34pt; line-height: 1.1; font-weight: 700; letter-spacing: -0.02em; margin: 22mm 0 4mm; }
+.cover .sub { font-size: 14pt; color: var(--dark-text-2); max-width: 150mm; }
+.cover .accent-rule { width: 28mm; height: 3px; background: var(--brand); margin: 8mm 0; }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: auto; }
+.tile { background: var(--dark-slate); border: 1px solid var(--dark-edge); border-radius: 8px; padding: 5mm; }
+.tile .big { font-size: 22pt; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+.tile .big small { font-size: 11pt; font-weight: 500; color: var(--dark-text-2); }
+.tile .what { color: var(--dark-text-2); font-size: 9.5pt; margin-top: 2mm; }
+.tile .was { color: var(--dark-muted); font-size: 8.5pt; margin-top: 1mm; font-family: var(--mono); }
+.cover .verified { margin-top: 6mm; font-size: 8.5pt; color: var(--dark-muted); }
+.cover .verified .mono { color: var(--dark-text-2); }
+
+/* Summary band, dark in both themes */
+.band { background: var(--dark-steel); color: var(--dark-text); border-radius: 8px; padding: 6mm 7mm; margin: 0 0 6mm; }
+.band h2 { color: var(--dark-text); }
+.band .label { color: var(--dark-muted); }
+.band ol { margin: 3mm 0 0; padding-left: 5mm; }
+.band li { margin-bottom: 2.4mm; color: var(--dark-text-2); }
+.band li b { color: var(--dark-text); font-weight: 600; }
+
+section { page-break-before: always; }
+section.flow { page-break-before: auto; }
+.section-head { border-top: 3px solid var(--brand); padding-top: 3mm; margin-bottom: 4mm; }
+.lead { font-size: 12pt; font-weight: 500; line-height: 1.45; color: var(--on-surface); margin-bottom: 4mm; }
+
+.card { background: var(--card); border: 1px solid var(--panel-edge); border-radius: 8px; padding: 3mm 3mm 2mm; margin: 4mm 0; page-break-inside: avoid; }
+.card svg { width: 100%; height: auto; display: block; }
+.card .figno { font-size: 8pt; font-weight: 700; letter-spacing: 0.1em; color: var(--outline); padding: 1mm 2mm 0; }
+
+.plain { background: #F4F6F8; border-left: 3px solid var(--brand); border-radius: 4px; padding: 3mm 4mm; margin: 4mm 0; page-break-inside: avoid; }
+.plain .label { color: var(--primary); }
+.plain p { margin: 1mm 0 0; }
+
+table { width: 100%; border-collapse: collapse; font-size: 8.8pt; margin: 3mm 0 5mm; background: var(--card); page-break-inside: avoid; }
+th { text-align: left; font-weight: 600; color: var(--on-surface-variant); border-bottom: 1px solid var(--outline-variant); padding: 1.6mm 2mm; vertical-align: bottom; }
+td { border-bottom: 1px solid var(--steel-light); padding: 1.4mm 2mm; vertical-align: top; }
+td.n, th.n { text-align: right; white-space: nowrap; }
+td.n { font-family: var(--mono); font-size: 8.4pt; }
+tr.total td { font-weight: 600; border-top: 1px solid var(--outline-variant); }
+.src { font-size: 8pt; color: var(--outline); margin-top: -3mm; margin-bottom: 4mm; }
+
+.checks li { margin-bottom: 1mm; break-inside: avoid; }
+.tick { color: #15803D; font-weight: 700; }
+.glossary dt { font-weight: 600; margin-top: 2mm; }
+.glossary dd { margin: 0 0 1mm 0; color: var(--on-surface-variant); }
+.small { font-size: 8.8pt; color: var(--on-surface-variant); }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+.footer-note { font-size: 8pt; color: var(--outline); border-top: 1px solid var(--outline-variant); padding-top: 2mm; margin-top: 8mm; }
+table.sources td:nth-child(2) { word-break: break-all; font-size: 7.6pt; width: 34%; }
+table.sources td:last-child { white-space: nowrap; }

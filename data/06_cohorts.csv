@@ -1,0 +1,7 @@
+group (by holding at the start),wallets,added more than 1%,within 1%,reduced more than 1%,under 1 RBNT at the end,RBNT at start,RBNT at end,net change,net change %,RBNT 2026-07-31,RBNT 2026-08-31
+Largest wallets (10 million or more),21,9,7,5,0,1060403622,1090995450,30591828,2.88,1068131087,1087395019
+Large wallets (1 million to 10 million),180,60,109,9,2,467012595,477307152,10294557,2.2,471528919,471677090
+"Mid-size wallets (100,000 to 1 million)",818,119,650,38,11,243421511,248350646,4929135,2.02,248939678,247974854
+"Smaller wallets (1,000 to 100,000)",2403,136,2147,109,11,47464995,109524028,62059033,130.75,48705857,106455104
+"Small wallets (1 to 1,000)",49995,113,49736,84,62,1247918,19636077,18388159,1473.51,2629774,19561071
+New wallets (under 1 RBNT at the start),243,,,,,0,12810791,12810791,,,

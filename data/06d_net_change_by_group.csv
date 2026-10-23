@@ -1,0 +1,18 @@
+group,RBNT at start,RBNT at end,net change
+Largest wallets (10 million or more),1060403622,1090995450,30591828
+Large wallets (1 million to 10 million),467012595,477307152,10294557
+"Mid-size wallets (100,000 to 1 million)",243421511,248350646,4929135
+"Smaller wallets (1,000 to 100,000)",47464995,109524028,62059033
+"Small wallets (1 to 1,000)",1247918,19636077,18388159
+Wallets under 1 RBNT at the start,23908,12834734,12810825
+Other staking contracts,36852,111654,74801
+Multi-signature wallets (Safe),391836528,393268219,1431692
+Other verified contracts,3651818,3663528,11709
+Unverified contracts,27949340,27953887,4547
+Vesting contracts,1684803156,1582067290,-102735866
+Trading pools on decentralised exchanges,9120755,10618009,1497254
+Bridge contracts,84881987,89118004,4236017
+Contracts under 1 RBNT,5,5,0
+Redbelly reserved wallets,5974809361,5930989287,-43820074
+Reddex pools: reward funds,3299175,3525545,226370
+Not found in any balance read,36474,36485,11

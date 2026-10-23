@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="374.4pt" viewBox="0 0 720 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-23T15:52:49.897166</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 720 374.4 
+L 720 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 216 314.496 
+L 698.4 314.496 
+L 698.4 104.832 
+L 216 104.832 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 216 314.496 
+L 216 104.832 
+" clip-path="url(#pf3bc076dd5)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="216" y="327.496" transform="rotate(-0 216 327.496)">0%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 312.48 314.496 
+L 312.48 104.832 
+" clip-path="url(#pf3bc076dd5)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="312.48" y="327.496" transform="rotate(-0 312.48 327.496)">20%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 408.96 314.496 
+L 408.96 104.832 
+" clip-path="url(#pf3bc076dd5)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="408.96" y="327.496" transform="rotate(-0 408.96 327.496)">40%</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 505.44 314.496 
+L 505.44 104.832 
+" clip-path="url(#pf3bc076dd5)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="505.44" y="327.496" transform="rotate(-0 505.44 327.496)">60%</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 601.92 314.496 
+L 601.92 104.832 
+" clip-path="url(#pf3bc076dd5)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="601.92" y="327.496" transform="rotate(-0 601.92 327.496)">80%</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 698.4 314.496 
+L 698.4 104.832 
+" clip-path="url(#pf3bc076dd5)" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; text-anchor: middle; fill: #394853" x="698.4" y="327.496" transform="rotate(-0 698.4 327.496)">100%</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_7">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(97.018594 291.276396)">Small wallets (1 to 1,000)</text>
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(141.535 303.293896)">49,995 wallets</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_8">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(52.617969 249.840823)">Smaller wallets (1,000 to 100,000)</text>
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(148.309687 261.858323)">2,403 wallets</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_9">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(37.281406 208.40525)">Mid-size wallets (100,000 to 1 million)</text>
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(161.103516 220.42275)">818 wallets</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_10">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(47.452344 166.969677)">Large wallets (1 million to 10 million)</text>
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(160.705703 178.987177)">180 wallets</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17"/>
+     <g id="text_11">
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(50.919844 125.534104)">Largest wallets (10 million or more)</text>
+      <text style="font-size: 9.5px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(166.966797 137.551604)">21 wallets</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 216 304.965818 
+L 217.090333 304.965818 
+L 217.090333 280.104474 
+L 216 280.104474 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 216 263.530245 
+L 243.301873 263.530245 
+L 243.301873 238.668901 
+L 216 238.668901 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 216 222.094672 
+L 286.177995 222.094672 
+L 286.177995 197.233328 
+L 216 197.233328 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 216 180.659099 
+L 376.8 180.659099 
+L 376.8 155.797755 
+L 216 155.797755 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 216 139.223526 
+L 422.742857 139.223526 
+L 422.742857 114.362182 
+L 216 114.362182 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #ef5350"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 217.090333 304.965818 
+L 696.991251 304.965818 
+L 696.991251 280.104474 
+L 217.090333 280.104474 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 243.301873 263.530245 
+L 674.310112 263.530245 
+L 674.310112 238.668901 
+L 243.301873 238.668901 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 286.177995 222.094672 
+L 669.503178 222.094672 
+L 669.503178 197.233328 
+L 286.177995 197.233328 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 376.8 180.659099 
+L 668.92 180.659099 
+L 668.92 155.797755 
+L 376.8 155.797755 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 422.742857 139.223526 
+L 583.542857 139.223526 
+L 583.542857 114.362182 
+L 422.742857 114.362182 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #c3cdd4"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 696.991251 304.965818 
+L 697.801764 304.965818 
+L 697.801764 280.104474 
+L 696.991251 280.104474 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #34444f"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 674.310112 263.530245 
+L 696.19176 263.530245 
+L 696.19176 238.668901 
+L 674.310112 238.668901 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #34444f"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 669.503178 222.094672 
+L 691.912958 222.094672 
+L 691.912958 197.233328 
+L 669.503178 197.233328 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #34444f"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 668.92 180.659099 
+L 693.04 180.659099 
+L 693.04 155.797755 
+L 668.92 155.797755 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #34444f"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 583.542857 139.223526 
+L 698.4 139.223526 
+L 698.4 114.362182 
+L 583.542857 114.362182 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #34444f"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 697.801764 304.965818 
+L 698.4 304.965818 
+L 698.4 280.104474 
+L 697.801764 280.104474 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #8fa1ad"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 696.19176 263.530245 
+L 698.4 263.530245 
+L 698.4 238.668901 
+L 696.19176 238.668901 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #8fa1ad"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 691.912958 222.094672 
+L 698.4 222.094672 
+L 698.4 197.233328 
+L 691.912958 197.233328 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #8fa1ad"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 693.04 180.659099 
+L 698.4 180.659099 
+L 698.4 155.797755 
+L 693.04 155.797755 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #8fa1ad"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 698.4 139.223526 
+L 698.4 139.223526 
+L 698.4 114.362182 
+L 698.4 114.362182 
+z
+" clip-path="url(#pf3bc076dd5)" style="fill: #8fa1ad"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 216 314.496 
+L 698.4 314.496 
+" style="fill: none; stroke: #dde6ed; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: middle; fill: #ffffff" x="251.088998" y="212.724" transform="rotate(-0 251.088998 212.724)">15%</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: middle; fill: #ffffff" x="296.4" y="171.288427" transform="rotate(-0 296.4 171.288427)">33%</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: middle; fill: #ffffff" x="319.371429" y="129.852854" transform="rotate(-0 319.371429 129.852854)">43%</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: middle; fill: #0f1a22" x="457.040792" y="295.595146" transform="rotate(-0 457.040792 295.595146)">99%</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: middle; fill: #0f1a22" x="458.805993" y="254.159573" transform="rotate(-0 458.805993 254.159573)">89%</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: middle; fill: #0f1a22" x="477.840587" y="212.724" transform="rotate(-0 477.840587 212.724)">79%</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: middle; fill: #0f1a22" x="522.86" y="171.288427" transform="rotate(-0 522.86 171.288427)">61%</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: middle; fill: #0f1a22" x="503.142857" y="129.852854" transform="rotate(-0 503.142857 129.852854)">33%</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8.5px; font-family: 'JetBrains Mono'; text-anchor: middle; fill: #ffffff" x="640.971429" y="129.852854" transform="rotate(-0 640.971429 129.852854)">24%</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_24">
+     <path d="M 222.3 96.147 
+L 231.3 96.147 
+L 231.3 89.847 
+L 222.3 89.847 
+z
+" style="fill: #ef5350"/>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 9px; font-family: 'Be Vietnam Pro'; text-anchor: start" x="238.5" y="96.147" transform="rotate(-0 238.5 96.147)">Added more than 1%</text>
+    </g>
+    <g id="patch_25">
+     <path d="M 345.619687 96.147 
+L 354.619687 96.147 
+L 354.619687 89.847 
+L 345.619687 89.847 
+z
+" style="fill: #c3cdd4"/>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 9px; font-family: 'Be Vietnam Pro'; text-anchor: start" x="361.819687" y="96.147" transform="rotate(-0 361.819687 96.147)">Within 1%</text>
+    </g>
+    <g id="patch_26">
+     <path d="M 421.049531 96.147 
+L 430.049531 96.147 
+L 430.049531 89.847 
+L 421.049531 89.847 
+z
+" style="fill: #34444f"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 9px; font-family: 'Be Vietnam Pro'; text-anchor: start" x="437.249531" y="96.147" transform="rotate(-0 437.249531 96.147)">Reduced more than 1%</text>
+    </g>
+    <g id="patch_27">
+     <path d="M 553.575938 96.147 
+L 562.575938 96.147 
+L 562.575938 89.847 
+L 553.575938 89.847 
+z
+" style="fill: #8fa1ad"/>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 9px; font-family: 'Be Vietnam Pro'; text-anchor: start" x="569.775938" y="96.147" transform="rotate(-0 569.775938 96.147)">Under 1 RBNT at the end</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_25">
+   <text style="font-weight: 700; font-size: 14.5px; font-family: 'Be Vietnam Pro'; text-anchor: start; fill: #0f1a22" x="14.4" y="23.86" transform="rotate(-0 14.4 23.86)">What the same wallets did between 1 July and 30 September</text>
+  </g>
+  <g id="text_26">
+   <text style="font-size: 10.5px; font-family: 'Be Vietnam Pro'; text-anchor: start; fill: #394853" x="14.4" y="42.324" transform="rotate(-0 14.4 42.324)">Wallets grouped by their holding at the start of the quarter; each bar shows what share added, held or reduced</text>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 8px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(14.4 348.20375)">Source: Redbelly mainnet (chain ID 151), blocks 3,025,809 (30 June 2026, 23:57:19 UTC) and 3,209,414 (30 September 2026, 23:57:35 UTC). Last verified</text>
+   <text style="font-size: 8px; font-family: 'Be Vietnam Pro'; fill: #394853" transform="translate(14.4 362.828)">23 October 2026.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf3bc076dd5">
+   <rect x="216" y="104.832" width="482.4" height="209.664"/>
+  </clipPath>
+ </defs>
+</svg>
