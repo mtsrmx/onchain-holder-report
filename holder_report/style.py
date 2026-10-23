@@ -35,6 +35,8 @@ def setup():
     rcParams.update({
         "font.family": SANS,
         "font.size": 10.5,
+        "text.color": INK,
+        "legend.labelcolor": INK,
         "axes.edgecolor": HAIRLINE,
         "axes.labelcolor": MUTED,
         "axes.titlecolor": INK,

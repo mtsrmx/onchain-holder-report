@@ -34,6 +34,8 @@ def svg_inline(name):
     t = re.sub(r"<\?xml[^>]*>", "", t)
     t = re.sub(r"<!DOCTYPE[^>]*>", "", t)
     t = re.sub(r'(<svg[^>]*?)\swidth="[^"]*"\sheight="[^"]*"', r"\1", t, count=1)
+    # Colours become CSS variables so the chart follows the page theme; print keeps the light values.
+    t = re.sub(r"(fill|stroke): (#[0-9a-fA-F]{6})", lambda mm: f"{mm.group(1)}: var(--c-{mm.group(2)[1:].lower()}, {mm.group(2)})", t)
     return t
 
 

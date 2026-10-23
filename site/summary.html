@@ -6,7 +6,22 @@
 <meta property="og:type" content="article"><meta property="og:image" content="og_1200x630.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="assets/icon.png">
-<style>/* RBNT Holder Report. Values from the Redbelly DAO Task Board brand kit
+<script>
+(function () {
+  var t = null;
+  try { t = localStorage.getItem("rbnt-theme"); } catch (e) {}
+  if (t !== "dark" && t !== "light") {
+    t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+  document.documentElement.setAttribute("data-theme", t);
+})();
+function toggleTheme() {
+  var r = document.documentElement;
+  var t = r.getAttribute("data-theme") === "dark" ? "light" : "dark";
+  r.setAttribute("data-theme", t);
+  try { localStorage.setItem("rbnt-theme", t); } catch (e) {}
+}
+</script><style>/* RBNT Holder Report. Values from the Redbelly DAO Task Board brand kit
    (light theme for the page, dark steel for hero and summary bands). */
 @font-face { font-family: "Be Vietnam Pro"; font-weight: 400; src: url("assets/fonts/BeVietnamPro-Regular.ttf"); }
 @font-face { font-family: "Be Vietnam Pro"; font-weight: 400; font-style: italic; src: url("assets/fonts/BeVietnamPro-Italic.ttf"); }
@@ -35,6 +50,18 @@
   --dark-text-2: #c2ced6;
   --dark-muted: #8fa1ad;
   --dark-accent: #ffb3ae;
+  --page: #FFFFFF;
+  --inset: #F4F6F8;
+  --ok: #15803D;
+  /* Chart colours. Charts are inlined as SVG and read these, so they follow the theme. */
+  --c-ffffff: #FFFFFF;
+  --c-0f1a22: #0F1A22;
+  --c-394853: #394853;
+  --c-dde6ed: #DDE6ED;
+  --c-ef5350: #EF5350;
+  --c-34444f: #34444F;
+  --c-c3cdd4: #C3CDD4;
+  --c-8fa1ad: #8FA1AD;
   --sans: "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, monospace;
 }
@@ -47,10 +74,10 @@
 @page :first { margin: 0; @bottom-left { content: none; } @bottom-right { content: none; } }
 
 * { box-sizing: border-box; }
-html { background: #FFFFFF; }
+html { background: var(--page); }
 body {
   margin: 0; font-family: var(--sans); font-size: 10.5pt; line-height: 1.5; color: var(--on-surface);
-  background: #FFFFFF; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  background: var(--page); -webkit-print-color-adjust: exact; print-color-adjust: exact;
 }
 .mono, code, .addr { font-family: var(--mono); font-size: 0.9em; letter-spacing: 0.02em; }
 .addr { word-break: break-all; }
@@ -100,7 +127,7 @@ section.flow { page-break-before: auto; }
 .card svg { width: 100%; height: auto; display: block; }
 .card .figno { font-size: 8pt; font-weight: 700; letter-spacing: 0.1em; color: var(--outline); padding: 1mm 2mm 0; }
 
-.plain { background: #F4F6F8; border-left: 3px solid var(--brand); border-radius: 4px; padding: 3mm 4mm; margin: 4mm 0; page-break-inside: avoid; }
+.plain { background: var(--inset); border-left: 3px solid var(--brand); border-radius: 4px; padding: 3mm 4mm; margin: 4mm 0; page-break-inside: avoid; }
 .plain .label { color: var(--primary); }
 .plain p { margin: 1mm 0 0; }
 
@@ -113,7 +140,7 @@ tr.total td { font-weight: 600; border-top: 1px solid var(--outline-variant); }
 .src { font-size: 8pt; color: var(--outline); margin-top: -3mm; margin-bottom: 4mm; }
 
 .checks li { margin-bottom: 1mm; break-inside: avoid; }
-.tick { color: #15803D; font-weight: 700; }
+.tick { color: var(--ok); font-weight: 700; }
 .glossary dt { font-weight: 600; margin-top: 2mm; }
 .glossary dd { margin: 0 0 1mm 0; color: var(--on-surface-variant); }
 .small { font-size: 8.8pt; color: var(--on-surface-variant); }
@@ -192,10 +219,10 @@ table.sources td:last-child { white-space: nowrap; }
   main.doc { padding-top: 32px; padding-bottom: 64px; }
   main.doc h1 { font-size: 32px; margin: 16px 0 12px; }
   main.doc h2 { margin-top: 36px; border-top: 3px solid var(--brand); padding-top: 12px; }
-  main.doc code { background: #F4F6F8; padding: 1px 4px; border-radius: 4px; }
-  main.doc pre { background: #F4F6F8; padding: 12px; border-radius: 8px; overflow-x: auto; }
+  main.doc code { background: var(--inset); padding: 1px 4px; border-radius: 4px; }
+  main.doc pre { background: var(--inset); padding: 12px; border-radius: 8px; overflow-x: auto; }
   main.doc table { display: block; overflow-x: auto; }
-  main.doc blockquote { margin: 12px 0; padding: 10px 14px; background: #F4F6F8; border-left: 3px solid var(--brand); border-radius: 4px; }
+  main.doc blockquote { margin: 12px 0; padding: 10px 14px; background: var(--inset); border-left: 3px solid var(--brand); border-radius: 4px; }
   main.doc img { max-width: 100%; height: auto; border-radius: 8px; }
   body { padding-bottom: 64px; }
 }
@@ -210,7 +237,51 @@ table.sources td:last-child { white-space: nowrap; }
   .nav .links a:not(.pdf) { display: none; }
   h2 { font-size: 24px; }
 }
-</style></head><body id="top"><nav class="nav screen-only"><a class="brand" href="index.html">RBNT Holder Report <span>Q3 2026</span></a><div class="links"><a href="index.html#glance">Summary</a><a href="index.html#s2">Holders</a><a href="index.html#s5">Largest holders</a><a href="index.html#s6">Staking</a><a href="index.html#s7">Named wallets</a><a href="index.html#downloads">Data</a><a href="method.html">Method</a><a class="pdf" href="RBNT_Holder_Report_Q3_2026.pdf">PDF</a></div></nav><main class="doc"><h1>RBNT holder report, Q3 2026: community summary</h1>
+
+/* ---------- Light and dark themes on screen. Print always uses the light values above. ---------- */
+@media screen {
+  :root { --page: #EDF1F4; }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0c1317;
+    --card: #141f26;
+    --inset: #17222a;
+    --steel-light: #223039;
+    --panel-edge: #263641;
+    --on-surface: #f1f5f8;
+    --on-surface-variant: #c2ced6;
+    --outline: #8fa1ad;
+    --outline-variant: #34444f;
+    --primary: #ffb3ae;
+    --ok: #86EFAC;
+    --c-ffffff: #141f26;
+    --c-0f1a22: #f1f5f8;
+    --c-394853: #c2ced6;
+    --c-dde6ed: #263641;
+    --c-34444f: #c2ced6;
+    --c-c3cdd4: #3d4f5b;
+    --c-8fa1ad: #8fa1ad;
+  }
+  :root[data-theme="dark"] .cover { border-bottom: 1px solid var(--dark-edge); }
+  :root[data-theme="dark"] .band { border: 1px solid var(--dark-edge); }
+  .theme-toggle {
+    display: inline-flex; align-items: center; gap: 6px; cursor: pointer; font: inherit; font-size: 14px; font-weight: 500;
+    color: var(--dark-text-2); background: transparent; border: 1px solid var(--dark-edge); border-radius: 4px; padding: 5px 10px;
+  }
+  .theme-toggle:hover { color: var(--dark-accent); border-color: var(--dark-accent); }
+  .theme-toggle:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+  .theme-toggle svg { width: 16px; height: 16px; }
+  .theme-toggle .to-light { display: none; }
+  :root[data-theme="dark"] .theme-toggle .to-light { display: inline-flex; }
+  :root[data-theme="dark"] .theme-toggle .to-dark { display: none; }
+  .theme-toggle span { display: inline-flex; align-items: center; gap: 6px; }
+}
+@media screen and (max-width: 560px) {
+  .nav { flex-wrap: nowrap; }
+  .nav .brand span { display: none; }
+  .nav .links { flex-wrap: nowrap; gap: 8px; }
+}
+</style></head><body id="top"><nav class="nav screen-only"><a class="brand" href="index.html">RBNT Holder Report <span>Q3 2026</span></a><div class="links"><a href="index.html#glance">Summary</a><a href="index.html#s2">Holders</a><a href="index.html#s5">Largest holders</a><a href="index.html#s6">Staking</a><a href="index.html#s7">Named wallets</a><a href="index.html#downloads">Data</a><a href="method.html">Method</a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Switch between dark and light mode"><span class="to-dark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>Dark</span><span class="to-light"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>Light</span></button><a class="pdf" href="RBNT_Holder_Report_Q3_2026.pdf">PDF</a></div></nav><main class="doc"><h1>RBNT holder report, Q3 2026: community summary</h1>
 <p><em>1 July 2026 to 30 September 2026. Data read from Redbelly mainnet at blocks 3,025,809 and 3,209,414. Last verified 23 October 2026. Not financial advice.</em></p>
 <p>Holders often ask what the big wallets are doing. This report answers from the chain itself. We read the balance of every address at the start and end of the quarter, counted wrapped and staked RBNT with its owner, and looked at groups of wallets rather than individuals. Only addresses that are already public are named.</p>
 <p><strong>Staking grew.</strong> The two Reddex RBNT staking pools held 754.8 million RBNT at the end of the quarter, up from 639.1 million. A pool's balance includes some reward funds as well as stakes; the staked part alone went from 635.8 million to 751.3 million. 1,255 addresses had a stake at the end.</p>

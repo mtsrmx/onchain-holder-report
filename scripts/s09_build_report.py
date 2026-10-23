@@ -588,7 +588,34 @@ def nav(home=""):
                     for h, t in NAV)
     return (f'<nav class="nav screen-only"><a class="brand" href="{home or "#top"}">RBNT Holder Report '
             f'<span>{esc(F["quarter"])}</span></a><div class="links">{links}'
-            f'<a class="pdf" href="RBNT_Holder_Report_{EDITION}.pdf">PDF</a></div></nav>')
+            f'{THEME_BUTTON}<a class="pdf" href="RBNT_Holder_Report_{EDITION}.pdf">PDF</a></div></nav>')
+
+
+MOON = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">'
+        '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>')
+SUN = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">'
+       '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2'
+       'M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>')
+THEME_BUTTON = (f'<button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Switch between dark '
+                f'and light mode"><span class="to-dark">{MOON}Dark</span><span class="to-light">{SUN}Light</span></button>')
+# Runs before the page paints: saved choice first, then the system setting. Storage can fail
+# (private windows, blocked site data), so every access is guarded and the page works without it.
+THEME_SCRIPT = """<script>
+(function () {
+  var t = null;
+  try { t = localStorage.getItem("rbnt-theme"); } catch (e) {}
+  if (t !== "dark" && t !== "light") {
+    t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+  document.documentElement.setAttribute("data-theme", t);
+})();
+function toggleTheme() {
+  var r = document.documentElement;
+  var t = r.getAttribute("data-theme") === "dark" ? "light" : "dark";
+  r.setAttribute("data-theme", t);
+  try { localStorage.setItem("rbnt-theme", t); } catch (e) {}
+}
+</script>"""
 
 
 def downloads():
@@ -609,7 +636,7 @@ def downloads():
 </section>"""
 
 
-def head(title, desc, assets, extra_css=""):
+def head(title, desc, assets, extra_css="", web=True):
     css = (OUT / "template" / "report.css").read_text().replace("../../assets/", assets) + extra_css
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -619,7 +646,7 @@ def head(title, desc, assets, extra_css=""):
 <meta property="og:type" content="article"><meta property="og:image" content="og_1200x630.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="{assets}icon.png">
-<style>{css}</style></head>"""
+{THEME_SCRIPT if web else ""}<style>{css}</style></head>"""
 
 
 DESC = (f"How RBNT holders behaved between {F['first_day']} and {F['last_day']}: holdings, concentration, accumulation, "
@@ -633,7 +660,7 @@ def build_html(web=False):
     body += [section_supply(), section_where(), section_holders(), section_concentration(),
              section_behaviour(), section_staking(), section_named(), section_method(), section_sources()]
     assets = "assets/" if web else "../assets/"
-    return (head(f"RBNT Holder Report {F['quarter']}", DESC, assets) +
+    return (head(f"RBNT Holder Report {F['quarter']}", DESC, assets, web=web) +
             f'<body id="top">{nav() if web else ""}{"".join(body)}</body></html>')
 
 

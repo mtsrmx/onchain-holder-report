@@ -1,6 +1,6 @@
 {
  "passed": true,
- "count": 184,
+ "count": 279,
  "results": [
   {
    "check": "all analysis checks passed (figures.json)",
@@ -528,6 +528,26 @@
    "detail": ""
   },
   {
+   "check": "community/og_1200x630.svg: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "community/og_1200x630.svg: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "community/og_1200x630.svg: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "community/og_1200x630.svg: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
    "check": "data/01_supply_check.csv: only publicly named addresses",
    "passed": true,
    "detail": ""
@@ -839,6 +859,461 @@
   },
   {
    "check": "data/04_holders_by_size.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/index.html: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/index.html: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/index.html: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/index.html: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/x_thread.txt: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/x_thread.txt: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/x_thread.txt: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/x_thread.txt: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/community_summary.md: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/community_summary.md: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/community_summary.md: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/community_summary.md: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/summary.html: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/summary.html: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/summary.html: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/summary.html: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/method.html: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/method.html: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/method.html: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/method.html: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/01_supply_check.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/01_supply_check.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/01_supply_check.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/01_supply_check.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/11_lock_calendar.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/11_lock_calendar.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/11_lock_calendar.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/11_lock_calendar.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/05_concentration.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/05_concentration.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/05_concentration.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/05_concentration.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/02_where_the_rbnt_is.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/02_where_the_rbnt_is.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/02_where_the_rbnt_is.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/02_where_the_rbnt_is.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06d_net_change_by_group.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06d_net_change_by_group.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/06d_net_change_by_group.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06d_net_change_by_group.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/03_who_holds_the_rbnt.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/03_who_holds_the_rbnt.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/03_who_holds_the_rbnt.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/03_who_holds_the_rbnt.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06c_contracts_by_kind.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06c_contracts_by_kind.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/06c_contracts_by_kind.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06c_contracts_by_kind.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/figures.json: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/figures.json: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/figures.json: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06b_band_moves.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06b_band_moves.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/06b_band_moves.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06b_band_moves.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06_cohorts.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06_cohorts.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/06_cohorts.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/06_cohorts.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/08_named_addresses.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/08_named_addresses.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/08_named_addresses.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/08_named_addresses.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/10_staking_pools.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/10_staking_pools.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/10_staking_pools.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/10_staking_pools.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/07_weekly_named_addresses.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/07_weekly_named_addresses.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/07_weekly_named_addresses.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/07_weekly_named_addresses.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/12_group_flows.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/12_group_flows.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/12_group_flows.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/12_group_flows.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/09_reserved_wallet_flows.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/09_reserved_wallet_flows.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/09_reserved_wallet_flows.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/09_reserved_wallet_flows.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/04_holders_by_size.csv: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/04_holders_by_size.csv: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/data/04_holders_by_size.csv: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/data/04_holders_by_size.csv: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/assets/fonts/OFL-JetBrainsMono.txt: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/assets/fonts/OFL-JetBrainsMono.txt: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/assets/fonts/OFL-JetBrainsMono.txt: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/assets/fonts/OFL-JetBrainsMono.txt: no prices or trading calls",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/assets/fonts/OFL-BeVietnamPro.txt: only publicly named addresses",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/assets/fonts/OFL-BeVietnamPro.txt: no em or en dashes",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "site/assets/fonts/OFL-BeVietnamPro.txt: no emoji",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "site/assets/fonts/OFL-BeVietnamPro.txt: no prices or trading calls",
    "passed": true,
    "detail": ""
   },
