@@ -39,7 +39,7 @@ def svg_inline(name):
 
 def figure(no, name, alt):
     return (f'<div class="card" role="img" aria-label="{esc(alt)}"><div class="figno">FIGURE {no}</div>'
-            f"{svg_inline(name)}</div>")
+            f'{svg_inline(name)}<a class="screen-only fullsize" href="charts/{name}.png">Open full size</a></div>')
 
 
 def table(header, rows, numeric_cols=(), total_last=False, cls=""):
@@ -49,7 +49,8 @@ def table(header, rows, numeric_cols=(), total_last=False, cls=""):
         tr_cls = ' class="total"' if total_last and j == len(rows) - 1 else ""
         tds = "".join(f'<td class="{"n" if i in numeric_cols else ""}">{c}</td>' for i, c in enumerate(r))
         body.append(f"<tr{tr_cls}>{tds}</tr>")
-    return f'<table class="{cls}"><thead><tr>{th}</tr></thead><tbody>{"".join(body)}</tbody></table>'
+    return (f'<div class="tablewrap"><table class="{cls}"><thead><tr>{th}</tr></thead>'
+            f'<tbody>{"".join(body)}</tbody></table></div>')
 
 
 def read_csv(name):

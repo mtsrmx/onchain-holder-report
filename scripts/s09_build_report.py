@@ -170,7 +170,7 @@ def cover():
 def glance():
     items = "".join(f"<li><b>{esc(a)}</b> {esc(b)}</li>" for a, b in GLANCE)
     return f"""
-<section class="flow" style="page-break-before:auto">
+<section id="glance" class="flow" style="page-break-before:auto">
 <div class="band"><div class="label">At a glance</div><h2>The quarter in six points</h2><ol>{items}</ol></div>
 <div class="plain"><div class="label">Read this first</div>
 <p>This report describes what the public Redbelly chain shows. It is about trends, not people. It names only addresses that
@@ -198,7 +198,7 @@ def section_supply():
     t = table(["Date (end of day UTC)", "Block", "Created at genesis", "In all balances read", "Not found", "Found"], rows,
               numeric_cols=(1, 2, 3, 4, 5))
     return f"""
-<section>
+<section id="s1">
 <div class="section-head"><div class="label">Section 1</div><h2>Every RBNT accounted for</h2></div>
 <p class="lead">All 10 billion RBNT were created in one allocation when the chain started. On 30 September we found
 {n(found_end)} of them, {float(supply[-1][6]):.4f}%, in the balances we read. Only {n(F['unfound']['end'])} RBNT were not in
@@ -237,7 +237,7 @@ def section_where():
     t2 = table(["Kind of contract (from its verified code)", "Contracts", "30 June", "30 September", "Change"], rows2,
                numeric_cols=(1, 2, 3, 4))
     return f"""
-<section>
+<section id="s2">
 <div class="section-head"><div class="label">Section 2</div><h2>Who holds the RBNT</h2></div>
 <p class="lead">At the end of the quarter, {p(res_tot['end_econ'] / 1e10)} of all RBNT sat in Redbelly's reserved wallets,
 {p(F['econ']['wallet']['end'] / 1e10)} with other wallets and {p(F['econ']['contract']['end'] / 1e10)} in other contracts.
@@ -275,7 +275,7 @@ def section_holders():
     ht = F["holder_turnover"]
     small_share = (F["bands"]["Less than 1"]["end"] + F["bands"]["1 to 100"]["end"]) / h[d1]["wallets_any"]
     return f"""
-<section>
+<section id="s3">
 <div class="section-head"><div class="label">Section 3</div><h2>How many wallets hold RBNT</h2></div>
 <p class="lead">{n(h[d1]['wallets_1plus'])} wallets held 1 RBNT or more at the end of the quarter, up from
 {n(h[d0]['wallets_1plus'])}. {"The count rose in each month of the quarter." if F["holders_rose_every_month"] else ""}</p>
@@ -302,7 +302,7 @@ def section_concentration():
     t = table(["End of", "Wallets 1+ RBNT", "Largest 10", "Largest 100", "Largest 1,000", "Gini", "Wallets holding half"],
               rows, numeric_cols=(1, 2, 3, 4, 5, 6))
     return f"""
-<section>
+<section id="s4">
 <div class="section-head"><div class="label">Section 4</div><h2>How concentrated holdings are</h2></div>
 <p class="lead">The largest 10 wallets held {p(conc1['top10'])} of all RBNT held by wallets at the end of the quarter, against
 {p(conc0['top10'])} at the start. The largest 100 held {p(conc1['top100'])}, against {p(conc0['top100'])}.</p>
@@ -334,7 +334,7 @@ def section_behaviour():
     bm = F["band_moves"]
     smaller = cohorts["Smaller wallets (1,000 to 100,000)"]
     return f"""
-<section>
+<section id="s5">
 <div class="section-head"><div class="label">Section 5</div><h2>What the largest holders did</h2></div>
 <p class="lead">Wallets of every size added RBNT on balance during the quarter. Most of it came from vesting contracts, which
 sent {m(vest_out_wallets)} RBNT to wallets.</p>
@@ -396,7 +396,7 @@ def section_staking():
     assert owners == set(top_up_src), (owners, top_up_src)
     owner_note = ""
     return f"""
-<section>
+<section id="s6">
 <div class="section-head"><div class="label">Section 6</div><h2>Staking in the Reddex pools</h2></div>
 <p class="lead">The two Reddex RBNT staking pools held {m(pool_bal1)} RBNT at the end of the quarter, up from {m(pool_bal0)}
 at the start. The no lock pool grew by {p(pct_change(nl['balance_start'], nl['balance_end']))} and the 365 day pool by
@@ -452,7 +452,7 @@ def section_named():
                  n(eco_out["unlabelled wallets"] + eco_out["unlabelled contracts"])]]
     t2 = table(["Ecosystem (Unlocked) sent RBNT to", "RBNT"], eco_rows, numeric_cols=(1,))
     return f"""
-<section>
+<section id="s7">
 <div class="section-head"><div class="label">Section 7</div><h2>The publicly named wallets</h2></div>
 <p class="lead">Redbelly's nine reserved wallets held {m(res_tot['start'])} RBNT at the start and {m(res_tot['end'])} at the end.
 Most of the movement was between reserved wallets. Only Ecosystem (Unlocked) sent RBNT outside the group.</p>
@@ -503,7 +503,7 @@ def section_method():
     items = "".join(f'<li><span class="tick">&#10003;</span> {esc(k[0].upper() + k[1:])}'
                     f'{f" ({cnt} times)" if cnt > 1 else ""}</li>' for k, (cnt, _ok) in groups.items())
     return f"""
-<section>
+<section id="s8">
 <div class="section-head"><div class="label">Section 8</div><h2>Method</h2></div>
 <p class="lead">Everything in this report comes from public chain data, read at fixed blocks, with scripts anyone can run.
 METHOD.md in the data package gives every call in detail; this is the short version.</p>
@@ -558,7 +558,7 @@ def section_sources():
              ["verification.json", "Independent re-reads from the node and file scans"]]
     t2 = table(["Data file", "Used in"], [[f'<span class="mono">{esc(a)}</span>', esc(b)] for a, b in files])
     return f"""
-<section>
+<section id="s9">
 <div class="section-head"><div class="label">Section 9</div><h2>Sources and data</h2></div>
 <p>Every figure is a balance or event on the Redbelly chain at block {SB:,} ({esc(ST)}), block {EB:,} ({esc(ET)}), a month-end or
 weekly block listed in the data files, or an event between them. All sources were read on {READ_ON}.</p>
@@ -579,14 +579,103 @@ weekly block listed in the data files, or an event between them. All sources wer
 </section>"""
 
 
-def build_html():
-    css = (OUT / "template" / "report.css").read_text().replace("../../assets/", "../assets/")
-    body = "".join([cover(), glance(), section_supply(), section_where(), section_holders(), section_concentration(),
-                    section_behaviour(), section_staking(), section_named(), section_method(), section_sources()])
+NAV = [("#glance", "Summary"), ("#s2", "Holders"), ("#s5", "Largest holders"), ("#s6", "Staking"),
+       ("#s7", "Named wallets"), ("#downloads", "Data"), ("method.html", "Method")]
+
+
+def nav(home=""):
+    links = "".join(f'<a href="{home}{h}">{esc(t)}</a>' if h.startswith("#") else f'<a href="{h}">{esc(t)}</a>'
+                    for h, t in NAV)
+    return (f'<nav class="nav screen-only"><a class="brand" href="{home or "#top"}">RBNT Holder Report '
+            f'<span>{esc(F["quarter"])}</span></a><div class="links">{links}'
+            f'<a class="pdf" href="RBNT_Holder_Report_{EDITION}.pdf">PDF</a></div></nav>')
+
+
+def downloads():
+    csvs = sorted(p.name for p in C.DATA.glob("*.csv"))
+    items = "".join(f'<li><a href="data/{esc(c)}"><span class="mono">{esc(c)}</span></a></li>' for c in csvs)
+    return f"""
+<section id="downloads" class="screen-only">
+<div class="section-head"><div class="label">Downloads</div><h2>The report and the data behind it</h2></div>
+<div class="dl-grid">
+<a class="dl" href="RBNT_Holder_Report_{EDITION}.pdf"><b>Report (PDF)</b><span>The full report, ready to print or share</span></a>
+<a class="dl" href="data/RBNT_Holder_Report_{EDITION}_data.xlsx"><b>All data (XLSX)</b><span>Every table behind the charts, one sheet each</span></a>
+<a class="dl" href="summary.html"><b>Community summary</b><span>A few paragraphs and an X thread</span></a>
+<a class="dl" href="method.html"><b>Method and sources</b><span>How every number was made, and how to repeat it</span></a>
+<a class="dl" href="data/figures.json"><b>figures.json</b><span>Every number quoted in the text, and every check</span></a>
+<a class="dl" href="data/verification.json"><b>verification.json</b><span>Independent re-reads from the node</span></a>
+</div>
+<h3>CSV files</h3><ul class="csvs">{items}</ul>
+</section>"""
+
+
+def head(title, desc, assets, extra_css=""):
+    css = (OUT / "template" / "report.css").read_text().replace("../../assets/", assets) + extra_css
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RBNT Holder Report {esc(F['quarter'])}</title><style>{css}</style></head>
-<body>{body}</body></html>"""
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(desc)}">
+<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
+<meta property="og:type" content="article"><meta property="og:image" content="og_1200x630.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="{assets}icon.png">
+<style>{css}</style></head>"""
+
+
+DESC = (f"How RBNT holders behaved between {F['first_day']} and {F['last_day']}: holdings, concentration, accumulation, "
+        f"staking and the publicly named wallets, read from the Redbelly chain.")
+
+
+def build_html(web=False):
+    body = [cover(), glance()]
+    if web:
+        body.append(downloads())
+    body += [section_supply(), section_where(), section_holders(), section_concentration(),
+             section_behaviour(), section_staking(), section_named(), section_method(), section_sources()]
+    assets = "assets/" if web else "../assets/"
+    return (head(f"RBNT Holder Report {F['quarter']}", DESC, assets) +
+            f'<body id="top">{nav() if web else ""}{"".join(body)}</body></html>')
+
+
+def md_page(title, md_text, active):
+    import markdown
+    html_body = markdown.markdown(md_text, extensions=["tables", "fenced_code"])
+    return (head(title, DESC, "assets/") + f'<body id="top">{nav("index.html")}'
+            f'<main class="doc">{html_body}</main></body></html>')
+
+
+def build_site():
+    """Static site for Netlify: the web version of the report plus every download."""
+    import shutil
+    site = C.ROOT / "site"
+    if site.exists():
+        shutil.rmtree(site)
+    (site / "assets" / "fonts").mkdir(parents=True)
+    (site / "data").mkdir()
+    (site / "charts").mkdir()
+    (site / "index.html").write_text(build_html(web=True))
+    for f in (C.ASSETS / "fonts").glob("*"):
+        shutil.copy(f, site / "assets" / "fonts" / f.name)
+    for f in ("icon.png", "dao-logo-on-dark.png", "dao-logo-on-light.png"):
+        shutil.copy(C.ASSETS / f, site / "assets" / f)
+    for f in (OUT / "charts").glob("*.png"):
+        shutil.copy(f, site / "charts" / f.name)
+    for f in C.DATA.iterdir():
+        if f.suffix in (".csv", ".json", ".xlsx"):
+            shutil.copy(f, site / "data" / f.name)
+    shutil.copy(OUT / f"RBNT_Holder_Report_{EDITION}.pdf", site / f"RBNT_Holder_Report_{EDITION}.pdf")
+    com = C.ROOT / "community"
+    for f in ("x_card_1600x900.png", "og_1200x630.png", "x_thread.txt", "community_summary.md"):
+        if (com / f).exists():
+            shutil.copy(com / f, site / f)
+    thread = (com / "x_thread.txt").read_text().split("\n---\n")
+    thread_md = "\n\n".join(f"> {t.strip()}" for t in thread if t.strip())
+    summary_md = ((com / "community_summary.md").read_text() + "\n\n## X thread\n\n" + thread_md +
+                  "\n\n![RBNT Holder Report summary card](x_card_1600x900.png)\n")
+    (site / "summary.html").write_text(md_page(f"Community summary, RBNT Holder Report {F['quarter']}", summary_md, "summary"))
+    (site / "method.html").write_text(md_page(f"Method and sources, RBNT Holder Report {F['quarter']}",
+                                              (C.ROOT / "METHOD.md").read_text(), "method"))
+    return site
 
 
 # ---------- community summary -----------------------------------------------
@@ -653,7 +742,8 @@ def main():
     print_pdf(html_path, OUT / f"RBNT_Holder_Report_{EDITION}.pdf")
     community()
     workbook.build(C.DATA / f"RBNT_Holder_Report_{EDITION}_data.xlsx")
-    print("built", html_path.name, "and PDF, community summary and workbook")
+    site = build_site()
+    print("built", html_path.name, "and PDF, community summary, workbook and the site in", site.name + "/")
 
 
 if __name__ == "__main__":

@@ -14,6 +14,7 @@ A quarterly, sourced report on how RBNT holders behave on the Redbelly chain: wh
 | 3. Method and sources | `METHOD.md` |
 | Verification | `data/verification.json` (independent re-reads from the node and file scans), `tests/` |
 | Charts on their own | `report/charts/*.svg` and `*.png` |
+| Website | `site/` (the report as a web page, plus the summary, method and every download) |
 
 ## The quarter at a glance
 
@@ -38,6 +39,15 @@ make all                                # fetch, analyse, build, verify
 
 To produce the next edition, change the quarter in `holder_report/config.py` and run `make all` again. `METHOD.md` section 5 explains the details.
 
+## Website
+
+`site/` is a static website built by `scripts/s09_build_report.py`: the report as a page that works on phones, the community summary, the method, the PDF and every data file. It needs no build step on the host.
+
+* **Vercel:** import the GitHub repository. `vercel.json` tells Vercel to serve `site/` as it is.
+* **Netlify:** import the GitHub repository. `netlify.toml` tells Netlify to publish `site/`.
+
+After a new edition, run `make all`, commit the updated `site/` and push; the host redeploys by itself.
+
 ## Layout
 
 ```
@@ -46,7 +56,8 @@ scripts/         the numbered steps, s01 to s10
 tests/           unit tests for the analysis functions
 data/            published tables (aggregates only), figures.json, verification.json, spreadsheet
 report/          the report (PDF, HTML), its stylesheet and the charts
-community/       X thread, summary paragraphs and image
+community/       X thread, summary paragraphs and images (1600x900 for X, 1200x630 for link previews)
+site/            the website, generated; deployed by vercel.json or netlify.toml
 assets/          fonts (Be Vietnam Pro, JetBrains Mono; open licences) and the DAO logo from the Task Board brand kit
 cache/           local chain data, created by the scripts; not published because it holds per-address data
 ```

@@ -81,7 +81,7 @@ def main():
     emoji_re = re.compile("[\U0001F300-\U0001FAFF\U00002600-\U000027BF]")
     price_re = re.compile(r"(\$\s?\d|\bUSD\b|price target|to the moon|buy now|should buy|should sell)", re.I)
     files = []
-    for d in ("report", "community", "data"):
+    for d in ("report", "community", "data", "site"):
         files += [p for p in (C.ROOT / d).rglob("*") if p.suffix in (".html", ".md", ".csv", ".json", ".txt", ".svg")]
     files += [C.ROOT / n for n in ("README.md", "METHOD.md", "SOURCES.md") if (C.ROOT / n).exists()]
     for p in files:

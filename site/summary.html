@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Community summary, RBNT Holder Report Q3 2026</title>
+<meta name="description" content="How RBNT holders behaved between 1 July 2026 and 30 September 2026: holdings, concentration, accumulation, staking and the publicly named wallets, read from the Redbelly chain.">
+<meta property="og:title" content="Community summary, RBNT Holder Report Q3 2026"><meta property="og:description" content="How RBNT holders behaved between 1 July 2026 and 30 September 2026: holdings, concentration, accumulation, staking and the publicly named wallets, read from the Redbelly chain.">
+<meta property="og:type" content="article"><meta property="og:image" content="og_1200x630.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/icon.png">
+<style>/* RBNT Holder Report. Values from the Redbelly DAO Task Board brand kit
+   (light theme for the page, dark steel for hero and summary bands). */
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 400; src: url("assets/fonts/BeVietnamPro-Regular.ttf"); }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 400; font-style: italic; src: url("assets/fonts/BeVietnamPro-Italic.ttf"); }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 500; src: url("assets/fonts/BeVietnamPro-Medium.ttf"); }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 600; src: url("assets/fonts/BeVietnamPro-SemiBold.ttf"); }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 700; src: url("assets/fonts/BeVietnamPro-Bold.ttf"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 400; src: url("assets/fonts/JetBrainsMono-Regular.ttf"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 500; src: url("assets/fonts/JetBrainsMono-Medium.ttf"); }
+
+:root {
+  --brand: #EF5350;
+  --primary: #B3272A;
+  --surface: #EDF1F4;
+  --card: #FFFFFF;
+  --steel-light: #DDE6ED;
+  --panel-edge: #D3DBE1;
+  --on-surface: #0F1A22;
+  --on-surface-variant: #394853;
+  --outline: #596975;
+  --outline-variant: #C3CDD4;
+  --dark-surface: #0c1317;
+  --dark-steel: #1d3140;
+  --dark-slate: #141f26;
+  --dark-edge: #263641;
+  --dark-text: #f1f5f8;
+  --dark-text-2: #c2ced6;
+  --dark-muted: #8fa1ad;
+  --dark-accent: #ffb3ae;
+  --sans: "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@page {
+  size: A4; margin: 16mm 16mm 20mm 16mm;
+  @bottom-left { content: "RBNT Holder Report, Q3 2026. Not financial advice."; font-family: "Be Vietnam Pro", sans-serif; font-size: 7pt; color: #596975; }
+  @bottom-right { content: counter(page) " / " counter(pages); font-family: "JetBrains Mono", monospace; font-size: 7pt; color: #596975; }
+}
+@page :first { margin: 0; @bottom-left { content: none; } @bottom-right { content: none; } }
+
+* { box-sizing: border-box; }
+html { background: #FFFFFF; }
+body {
+  margin: 0; font-family: var(--sans); font-size: 10.5pt; line-height: 1.5; color: var(--on-surface);
+  background: #FFFFFF; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+.mono, code, .addr { font-family: var(--mono); font-size: 0.9em; letter-spacing: 0.02em; }
+.addr { word-break: break-all; }
+.addr-small { font-family: var(--mono); font-size: 6.8pt; color: var(--on-surface-variant); white-space: nowrap; }
+table.first-wide td:first-child, table.first-wide th:first-child { white-space: nowrap; }
+.checks { columns: 2; column-gap: 6mm; padding-left: 0; list-style: none; }
+p { margin: 0 0 8pt; max-width: 170mm; }
+a { color: var(--primary); text-decoration: none; }
+h1, h2, h3 { margin: 0; letter-spacing: -0.01em; }
+h2 { font-size: 18pt; font-weight: 600; margin: 0 0 6pt; }
+h3 { font-size: 12pt; font-weight: 600; margin: 12pt 0 4pt; }
+.label { font-size: 8pt; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--outline); }
+
+/* Cover: dark steel band */
+.cover {
+  height: 297mm; width: 210mm; background: var(--dark-surface); color: var(--dark-text);
+  padding: 22mm 18mm 16mm; display: flex; flex-direction: column; page-break-after: always;
+}
+.cover .logo { height: 22mm; width: auto; align-self: flex-start; }
+.cover .label { color: var(--dark-muted); }
+.cover h1 { font-size: 34pt; line-height: 1.1; font-weight: 700; letter-spacing: -0.02em; margin: 22mm 0 4mm; }
+.cover .sub { font-size: 14pt; color: var(--dark-text-2); max-width: 150mm; }
+.cover .accent-rule { width: 28mm; height: 3px; background: var(--brand); margin: 8mm 0; }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: auto; }
+.tile { background: var(--dark-slate); border: 1px solid var(--dark-edge); border-radius: 8px; padding: 5mm; }
+.tile .big { font-size: 22pt; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+.tile .big small { font-size: 11pt; font-weight: 500; color: var(--dark-text-2); }
+.tile .what { color: var(--dark-text-2); font-size: 9.5pt; margin-top: 2mm; }
+.tile .was { color: var(--dark-muted); font-size: 8.5pt; margin-top: 1mm; font-family: var(--mono); }
+.cover .verified { margin-top: 6mm; font-size: 8.5pt; color: var(--dark-muted); }
+.cover .verified .mono { color: var(--dark-text-2); }
+
+/* Summary band, dark in both themes */
+.band { background: var(--dark-steel); color: var(--dark-text); border-radius: 8px; padding: 6mm 7mm; margin: 0 0 6mm; }
+.band h2 { color: var(--dark-text); }
+.band .label { color: var(--dark-muted); }
+.band ol { margin: 3mm 0 0; padding-left: 5mm; }
+.band li { margin-bottom: 2.4mm; color: var(--dark-text-2); }
+.band li b { color: var(--dark-text); font-weight: 600; }
+
+section { page-break-before: always; }
+section.flow { page-break-before: auto; }
+.section-head { border-top: 3px solid var(--brand); padding-top: 3mm; margin-bottom: 4mm; }
+.lead { font-size: 12pt; font-weight: 500; line-height: 1.45; color: var(--on-surface); margin-bottom: 4mm; }
+
+.card { background: var(--card); border: 1px solid var(--panel-edge); border-radius: 8px; padding: 3mm 3mm 2mm; margin: 4mm 0; page-break-inside: avoid; }
+.card svg { width: 100%; height: auto; display: block; }
+.card .figno { font-size: 8pt; font-weight: 700; letter-spacing: 0.1em; color: var(--outline); padding: 1mm 2mm 0; }
+
+.plain { background: #F4F6F8; border-left: 3px solid var(--brand); border-radius: 4px; padding: 3mm 4mm; margin: 4mm 0; page-break-inside: avoid; }
+.plain .label { color: var(--primary); }
+.plain p { margin: 1mm 0 0; }
+
+table { width: 100%; border-collapse: collapse; font-size: 8.8pt; margin: 3mm 0 5mm; background: var(--card); page-break-inside: avoid; }
+th { text-align: left; font-weight: 600; color: var(--on-surface-variant); border-bottom: 1px solid var(--outline-variant); padding: 1.6mm 2mm; vertical-align: bottom; }
+td { border-bottom: 1px solid var(--steel-light); padding: 1.4mm 2mm; vertical-align: top; }
+td.n, th.n { text-align: right; white-space: nowrap; }
+td.n { font-family: var(--mono); font-size: 8.4pt; }
+tr.total td { font-weight: 600; border-top: 1px solid var(--outline-variant); }
+.src { font-size: 8pt; color: var(--outline); margin-top: -3mm; margin-bottom: 4mm; }
+
+.checks li { margin-bottom: 1mm; break-inside: avoid; }
+.tick { color: #15803D; font-weight: 700; }
+.glossary dt { font-weight: 600; margin-top: 2mm; }
+.glossary dd { margin: 0 0 1mm 0; color: var(--on-surface-variant); }
+.small { font-size: 8.8pt; color: var(--on-surface-variant); }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+.footer-note { font-size: 8pt; color: var(--outline); border-top: 1px solid var(--outline-variant); padding-top: 2mm; margin-top: 8mm; }
+table.sources td:nth-child(2) { word-break: break-all; font-size: 7.6pt; width: 34%; }
+table.sources td:last-child { white-space: nowrap; }
+
+/* ---------- Screen (the website). Print and PDF use the rules above. ---------- */
+.screen-only { display: none; }
+@media screen {
+  .screen-only { display: block; }
+  body { font-size: 16px; line-height: 1.55; }
+  p { max-width: 72ch; }
+  body > section, main.doc { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+  body > section { margin-top: 64px; scroll-margin-top: 72px; }
+  section, section.flow { page-break-before: auto; }
+  .section-head { padding-top: 12px; margin-bottom: 16px; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 19px; margin: 28px 0 8px; }
+  .lead { font-size: 18px; margin-bottom: 16px; }
+  .label { font-size: 12px; }
+
+  .nav {
+    position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between;
+    gap: 16px; flex-wrap: wrap; padding: 10px max(16px, calc((100% - 1200px) / 2));
+    background: rgba(12, 19, 23, 0.9); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--dark-edge);
+  }
+  .nav a { color: var(--dark-text-2); font-size: 14px; font-weight: 500; }
+  .nav a:hover { color: var(--dark-accent); }
+  .nav .brand { color: var(--dark-text); font-weight: 700; font-size: 15px; }
+  .nav .brand span { color: var(--dark-muted); font-weight: 500; margin-left: 4px; }
+  .nav .links { display: flex; gap: 18px; flex-wrap: wrap; align-items: center; }
+  .nav .pdf { background: var(--brand); color: #fff; padding: 6px 12px; border-radius: 4px; font-weight: 700; }
+  .nav .pdf:hover { color: #fff; filter: brightness(1.06); }
+
+  .cover { width: auto; height: auto; min-height: 0; padding: 56px max(16px, calc((100% - 960px) / 2)) 48px; }
+  .cover .logo { height: 72px; }
+  .cover h1 { font-size: clamp(34px, 6vw, 48px); margin: 40px 0 16px; }
+  .cover .sub { font-size: 18px; max-width: 62ch; }
+  .cover .accent-rule { margin: 28px 0; }
+  .tiles { grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 32px; }
+  .tile { padding: 18px; }
+  .tile .big { font-size: 30px; }
+  .tile .what { font-size: 14px; }
+  .tile .was { font-size: 13px; }
+  .cover .verified { margin-top: 24px; font-size: 13px; }
+
+  .band { padding: 24px 28px; }
+  .band li { margin-bottom: 10px; }
+  .plain { padding: 14px 18px; margin: 18px 0; }
+  .card { padding: 12px 12px 10px; margin: 20px 0; }
+  .card .figno { font-size: 12px; }
+  .fullsize { font-size: 13px; padding: 4px 8px 0; }
+  .src { font-size: 13px; margin-top: -8px; margin-bottom: 18px; }
+  .small { font-size: 14px; }
+
+  .tablewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 12px 0 22px; }
+  table { font-size: 14px; margin: 0; }
+  td.n { font-size: 13px; }
+  th { padding: 8px 10px; }
+  td { padding: 7px 10px; }
+  .addr-small { font-size: 11px; }
+  table.sources td:nth-child(2) { font-size: 12px; }
+
+  .checks { columns: 2; }
+  .dl-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 8px 0 20px; }
+  .dl { display: block; background: var(--card); border: 1px solid var(--panel-edge); border-radius: 8px; padding: 14px 16px; color: var(--on-surface); }
+  .dl:hover { border-color: var(--brand); }
+  .dl b { display: block; color: var(--primary); margin-bottom: 4px; }
+  .dl span { font-size: 14px; color: var(--on-surface-variant); }
+  .csvs { columns: 2; padding-left: 18px; }
+  .csvs li { margin-bottom: 4px; }
+
+  main.doc { padding-top: 32px; padding-bottom: 64px; }
+  main.doc h1 { font-size: 32px; margin: 16px 0 12px; }
+  main.doc h2 { margin-top: 36px; border-top: 3px solid var(--brand); padding-top: 12px; }
+  main.doc code { background: #F4F6F8; padding: 1px 4px; border-radius: 4px; }
+  main.doc pre { background: #F4F6F8; padding: 12px; border-radius: 8px; overflow-x: auto; }
+  main.doc table { display: block; overflow-x: auto; }
+  main.doc blockquote { margin: 12px 0; padding: 10px 14px; background: #F4F6F8; border-left: 3px solid var(--brand); border-radius: 4px; }
+  main.doc img { max-width: 100%; height: auto; border-radius: 8px; }
+  body { padding-bottom: 64px; }
+}
+@media screen and (max-width: 860px) {
+  .tiles { grid-template-columns: 1fr 1fr; }
+  .dl-grid { grid-template-columns: 1fr 1fr; }
+  .nav .links { gap: 12px; }
+}
+@media screen and (max-width: 560px) {
+  .tiles, .dl-grid { grid-template-columns: 1fr; }
+  .checks, .csvs { columns: 1; }
+  .nav .links a:not(.pdf) { display: none; }
+  h2 { font-size: 24px; }
+}
+</style></head><body id="top"><nav class="nav screen-only"><a class="brand" href="index.html">RBNT Holder Report <span>Q3 2026</span></a><div class="links"><a href="index.html#glance">Summary</a><a href="index.html#s2">Holders</a><a href="index.html#s5">Largest holders</a><a href="index.html#s6">Staking</a><a href="index.html#s7">Named wallets</a><a href="index.html#downloads">Data</a><a href="method.html">Method</a><a class="pdf" href="RBNT_Holder_Report_Q3_2026.pdf">PDF</a></div></nav><main class="doc"><h1>RBNT holder report, Q3 2026: community summary</h1>
+<p><em>1 July 2026 to 30 September 2026. Data read from Redbelly mainnet at blocks 3,025,809 and 3,209,414. Last verified 23 October 2026. Not financial advice.</em></p>
+<p>Holders often ask what the big wallets are doing. This report answers from the chain itself. We read the balance of every address at the start and end of the quarter, counted wrapped and staked RBNT with its owner, and looked at groups of wallets rather than individuals. Only addresses that are already public are named.</p>
+<p><strong>Staking grew.</strong> The two Reddex RBNT staking pools held 754.8 million RBNT at the end of the quarter, up from 639.1 million. A pool's balance includes some reward funds as well as stakes; the staked part alone went from 635.8 million to 751.3 million. 1,255 addresses had a stake at the end.</p>
+<p><strong>Coins moved from vesting contracts and reserved wallets to ordinary wallets.</strong> Vesting contracts went from 1.68 billion to 1.58 billion RBNT and sent 127.8 million to wallets. The 21 wallets that started with 10 million RBNT or more went from 1.06 billion to 1.09 billion: 9 added, 7 held steady and 5 reduced. Most smaller wallets did not change at all.</p>
+<p><strong>Holdings stay concentrated.</strong> 53,574 wallets held 1 RBNT or more on 30 September, up from 53,417. The largest 100 hold 76.7% of all wallet-held RBNT, against 75.8% at the start.</p>
+<p><strong>Reserved wallets.</strong> Redbelly's nine reserved wallets went from 5.97 billion to 5.93 billion RBNT. Ecosystem (Locked) released 500.0 million to Ecosystem 2 (Unlocked), which sent 253.1 million to Investors, and Governance (Locked) released 33.3 million to Governance (Unlocked). Ecosystem (Unlocked) was the only reserved wallet that sent RBNT outside the group, including 15.0 million to the staking pools as reward funds.</p>
+<p><strong>Exchanges.</strong> Routescan labels no exchange wallet on Redbelly, so this edition reports no exchange flows rather than guess which addresses belong to exchanges.</p>
+<p>The chain shows that coins moved, not why. A fall in a group's holdings may be a sale, a move between a holder's own addresses or a deposit into a contract. The full report, the data behind every chart and the method are published with this summary so anyone can check the numbers and produce the next edition.</p>
+<h2>X thread</h2>
+<blockquote>
+<p>RBNT holder report, Q3 2026 (1 July 2026 to 30 September 2026). We read every balance on the Redbelly chain at the start and end of the quarter to show how holders behaved. Trends in groups, never individuals. Thread.</p>
+<ol>
+<li>
+<p>Staking grew. The two Reddex RBNT pools held 754.8 million RBNT on 30 September, up from 639.1 million on 30 June (+18.1%). Pool balances include some reward funds; staked RBNT alone went from 635.8 million to 751.3 million.</p>
+</li>
+<li>
+<p>Vesting contracts paid out. Contracts whose verified code is a vesting manager went from 1.68 billion to 1.58 billion RBNT, and sent 127.8 million to wallets during the quarter.</p>
+</li>
+<li>
+<p>The 21 wallets that started with 10 million RBNT or more held 1.06 billion then and 1.09 billion at the end. 9 added more than 1%, 7 held within 1%, 5 reduced.</p>
+</li>
+<li>
+<p>Holdings stay concentrated. The largest 100 wallets hold 76.7% of all wallet-held RBNT (75.8% on 30 June). 53,574 wallets held 1 RBNT or more, up from 53,417.</p>
+</li>
+<li>
+<p>Redbelly's nine reserved wallets went from 5.97 billion to 5.93 billion RBNT. Most of the movement was between reserved wallets; only Ecosystem (Unlocked) sent RBNT outside the group.</p>
+</li>
+<li>
+<p>Every number comes from the chain at blocks 3,025,809 and 3,209,414, and every RBNT is accounted for: 99.9996% of the 10 billion supply was found in the balances read. Not financial advice.</p>
+</li>
+</ol>
+<p>Full report, data files and method so anyone can repeat it: [link to the DAO's published report]</p>
+</blockquote>
+<p><img alt="RBNT Holder Report summary card" src="x_card_1600x900.png" /></p></main></body></html>

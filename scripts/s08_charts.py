@@ -335,11 +335,12 @@ def reserved_wallets():
            "Native RBNT balance of each wallet listed on the DAO treasury page, start and end of the quarter")
 
 
-def social_card():
-    """1600 x 900 image for the X thread, with the dated last-verified line the brand kit asks for."""
+def social_card(height_in=9.0, dpi=100, name="x_card_1600x900"):
+    """Image for the X thread (1600 x 900) or link previews (1200 x 630), with the dated
+    last-verified line the brand kit asks for."""
     from matplotlib.patches import FancyBboxPatch
     from matplotlib.image import imread
-    fig = plt.figure(figsize=(16, 9), dpi=100)
+    fig = plt.figure(figsize=(16, height_in), dpi=dpi)
     fig.patch.set_facecolor(S.SURFACE_DARK)
     logo = imread(str(C.ASSETS / "dao-logo-on-dark.png"))
     lax = fig.add_axes([0.05, 0.80, 0.09, 0.14])
@@ -372,15 +373,19 @@ def social_card():
              f"Last verified {long_date(FIG['read_on'])}. Not financial advice.", color="#8fa1ad", fontsize=13)
     out = C.ROOT / "community"
     out.mkdir(exist_ok=True)
-    fig.savefig(out / "x_card_1600x900.png", dpi=100, facecolor=S.SURFACE_DARK)
-    fig.savefig(out / "x_card_1600x900.svg", facecolor=S.SURFACE_DARK)
+    fig.savefig(out / f"{name}.png", dpi=dpi, facecolor=S.SURFACE_DARK)
+    fig.savefig(out / f"{name}.svg", facecolor=S.SURFACE_DARK)
     plt.close(fig)
+
+
+def og_card():
+    social_card(height_in=8.4, dpi=75, name="og_1200x630")
 
 
 def main():
     S.setup()
     for f in (where_the_rbnt_is, holders_by_size, holder_count, concentration, cohorts, cohort_net,
-              weekly_pools, pool_activity, lock_calendar, reserved_wallets, social_card):
+              weekly_pools, pool_activity, lock_calendar, reserved_wallets, social_card, og_card):
         f()
         print("drew", f.__name__)
 
